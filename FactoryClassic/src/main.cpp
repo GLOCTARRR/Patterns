@@ -15,6 +15,11 @@ int main() {
 			automobile->getInfo();
 		}
 
+		for(auto automobile: automobiles)
+		{
+			delete automobile;
+		}
+
 
 	return 0;
 }
